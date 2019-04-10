@@ -1,1 +1,9 @@
+*.npy
 *.pyc
+*.ipynb
+*ipynb*
+*.jar
+*cache*
+*.swp
+*tmp*
+*.gz*

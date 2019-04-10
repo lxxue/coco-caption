@@ -73,6 +73,8 @@ class COCO:
             dataset = json.load(open(annotation_file, 'r'))
             print datetime.datetime.utcnow() - time_t
             self.dataset = dataset
+            # lixin's modification
+            self.dataset['type'] = 'caption'
             self.createIndex()
 
     def createIndex(self):
